@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richiedi il tuo sito web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Benvenuti su CreaWeb!</h1>
+        <p>Inviami la tua richiesta per un sito web personalizzato in HTML, CSS e JavaScript.</p>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h2>Richiedi il tuo sito web</h2>
+            <form id="requestForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="description">Descrizione del progetto:</label>
+                <textarea id="description" name="description" rows="5" required></textarea>
+
+                <button type="submit">Invia richiesta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CreaWeb - Tutti i diritti riservati</p>
+    </footer>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
